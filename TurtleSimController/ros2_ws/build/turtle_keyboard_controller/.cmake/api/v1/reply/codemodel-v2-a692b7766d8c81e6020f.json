@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "turtle_keyboard_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_keyboard_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_keyboard_controller-a1d993ee7f319c9eb003.json",
+					"name" : "turtle_keyboard_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_keyboard_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_keyboard_controller_uninstall-18576e86e0d2b644246f.json",
+					"name" : "turtle_keyboard_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3a73bf0ea75742406bb4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/build/turtle_keyboard_controller",
+		"source" : "/home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/src/turtle_keyboard_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

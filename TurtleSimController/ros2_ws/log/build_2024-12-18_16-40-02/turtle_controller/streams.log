@@ -1,0 +1,26 @@
+[0.014s] Invoking command in '/home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/build/turtle_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --build /home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/build/turtle_controller -- -j8 -l8
+[0.034s] [35m[1mScanning dependencies of target turtle_controller[0m
+[0.050s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m
+[2.816s] [100%] [32m[1mLinking CXX executable turtle_controller[0m
+[2.976s] [100%] Built target turtle_controller
+[2.980s] Invoked command in '/home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/build/turtle_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --build /home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/build/turtle_controller -- -j8 -l8
+[2.988s] Invoking command in '/home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/build/turtle_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --install /home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/build/turtle_controller
+[2.991s] -- Install configuration: ""
+[2.991s] -- Installing: /home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_controller/lib/turtle_controller/turtle_controller
+[2.992s] -- Set runtime path of "/home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_controller/lib/turtle_controller/turtle_controller" to ""
+[2.992s] -- Up-to-date: /home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_controller/share/ament_index/resource_index/package_run_dependencies/turtle_controller
+[2.992s] -- Up-to-date: /home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_controller/share/ament_index/resource_index/parent_prefix_path/turtle_controller
+[2.992s] -- Up-to-date: /home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_controller/share/turtle_controller/environment/ament_prefix_path.sh
+[2.992s] -- Up-to-date: /home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_controller/share/turtle_controller/environment/ament_prefix_path.dsv
+[2.992s] -- Up-to-date: /home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_controller/share/turtle_controller/environment/path.sh
+[2.992s] -- Up-to-date: /home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_controller/share/turtle_controller/environment/path.dsv
+[2.992s] -- Up-to-date: /home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_controller/share/turtle_controller/local_setup.bash
+[2.992s] -- Up-to-date: /home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_controller/share/turtle_controller/local_setup.sh
+[2.992s] -- Up-to-date: /home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_controller/share/turtle_controller/local_setup.zsh
+[2.992s] -- Up-to-date: /home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_controller/share/turtle_controller/local_setup.dsv
+[2.992s] -- Installing: /home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_controller/share/turtle_controller/package.dsv
+[2.992s] -- Up-to-date: /home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_controller/share/ament_index/resource_index/packages/turtle_controller
+[2.992s] -- Up-to-date: /home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_controller/share/turtle_controller/cmake/turtle_controllerConfig.cmake
+[2.993s] -- Up-to-date: /home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_controller/share/turtle_controller/cmake/turtle_controllerConfig-version.cmake
+[2.993s] -- Up-to-date: /home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_controller/share/turtle_controller/package.xml
+[2.994s] Invoked command in '/home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/build/turtle_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --install /home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/build/turtle_controller
