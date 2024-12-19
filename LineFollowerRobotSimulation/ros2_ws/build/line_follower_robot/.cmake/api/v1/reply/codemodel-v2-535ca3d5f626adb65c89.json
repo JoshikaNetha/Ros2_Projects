@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "line_follower_robot",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "line_follower_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-line_follower_node-d75036f9f88eb7e06d83.json",
+					"name" : "line_follower_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "line_follower_robot_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-line_follower_robot_uninstall-af40459bbd4266d428ee.json",
+					"name" : "line_follower_robot_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f453e612aae6da61e852.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/build/line_follower_robot",
+		"source" : "/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/src/line_follower_robot"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

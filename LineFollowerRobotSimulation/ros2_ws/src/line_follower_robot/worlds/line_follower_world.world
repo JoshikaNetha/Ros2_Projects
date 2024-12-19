@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="line_follower_world">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Add a black line -->
+    <model name="line">
+      <static>true</static>
+      <link name="line_link">
+        <visual name="line_visual">
+          <geometry>
+            <box>
+              <size>5 0.1 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Green</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+      </model>
+  <include>
+      <uri>model://line_follow</uri>
+      <pose>1 1 1 0 0 0</pose> <!-- Optional: Set position and orientation -->
+    </include>
+
+
+  
+  </world>
+</sdf>

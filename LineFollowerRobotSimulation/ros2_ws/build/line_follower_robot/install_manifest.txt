@@ -1,0 +1,16 @@
+/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/lib/line_follower_robot/line_follower_node
+/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/ament_index/resource_index/package_run_dependencies/line_follower_robot
+/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/ament_index/resource_index/parent_prefix_path/line_follower_robot
+/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/environment/ament_prefix_path.sh
+/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/environment/ament_prefix_path.dsv
+/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/environment/path.sh
+/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/environment/path.dsv
+/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/local_setup.bash
+/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/local_setup.sh
+/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/local_setup.zsh
+/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/local_setup.dsv
+/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/package.dsv
+/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/ament_index/resource_index/packages/line_follower_robot
+/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/cmake/line_follower_robotConfig.cmake
+/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/cmake/line_follower_robotConfig-version.cmake
+/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/package.xml

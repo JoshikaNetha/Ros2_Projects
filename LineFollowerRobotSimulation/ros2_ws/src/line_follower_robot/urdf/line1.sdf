@@ -1,0 +1,84 @@
+<sdf version='1.7'>
+  <model name='line_follower_robot'>
+    <link name='base_link'>
+      <inertial>
+        <pose>0.004762 0 0.000952 0 -0 0</pose>
+        <mass>1.05</mass>
+        <inertia>
+          <ixx>1.90476e-05</ixx>
+          <ixy>0</ixy>
+          <ixz>-9.52381e-05</ixz>
+          <iyy>0.000495238</iyy>
+          <iyz>0</iyz>
+          <izz>0.00047619</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <joint name='wheel_left_joint' type='revolute'>
+      <pose relative_to='base_link'>-0.1 -0.05 0.02 0 -0 0</pose>
+      <parent>base_link</parent>
+      <child>wheel_left</child>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='wheel_left'>
+      <pose relative_to='wheel_left_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.1</mass>
+        <inertia>
+          <ixx>0</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0</iyy>
+          <iyz>0</iyz>
+          <izz>0</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <joint name='wheel_right_joint' type='revolute'>
+      <pose relative_to='base_link'>-0.1 0.05 0.02 0 -0 0</pose>
+      <parent>base_link</parent>
+      <child>wheel_right</child>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='wheel_right'>
+      <pose relative_to='wheel_right_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.1</mass>
+        <inertia>
+          <ixx>0</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0</iyy>
+          <iyz>0</iyz>
+          <izz>0</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <frame name='sensor_joint' attached_to='base_link'>
+      <pose>0.1 0 0.02 0 -0 0</pose>
+    </frame>
+    <frame name='line_sensor' attached_to='sensor_joint'/>
+  </model>
+</sdf>

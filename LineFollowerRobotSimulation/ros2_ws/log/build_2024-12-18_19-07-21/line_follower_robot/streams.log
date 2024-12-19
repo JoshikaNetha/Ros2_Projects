@@ -1,0 +1,145 @@
+[0.014s] Invoking command in '/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/build/line_follower_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/src/line_follower_robot -DCMAKE_INSTALL_PREFIX=/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot
+[0.068s] -- The C compiler identification is GNU 9.4.0
+[0.152s] -- The CXX compiler identification is GNU 9.4.0
+[0.161s] -- Detecting C compiler ABI info
+[0.203s] -- Detecting C compiler ABI info - done
+[0.213s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.213s] -- Detecting C compile features
+[0.213s] -- Detecting C compile features - done
+[0.216s] -- Detecting CXX compiler ABI info
+[0.278s] -- Detecting CXX compiler ABI info - done
+[0.298s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.299s] -- Detecting CXX compile features
+[0.300s] -- Detecting CXX compile features - done
+[0.305s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.354s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.354s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.581s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.664s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.671s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.772s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.835s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.916s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.969s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.970s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.971s] -- Looking for pthread.h
+[1.060s] -- Looking for pthread.h - found
+[1.061s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.184s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.184s] -- Looking for pthread_create in pthreads
+[1.233s] -- Looking for pthread_create in pthreads - not found
+[1.233s] -- Looking for pthread_create in pthread
+[1.303s] -- Looking for pthread_create in pthread - found
+[1.305s] -- Found Threads: TRUE  
+[1.473s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.579s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.645s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[1.658s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[1.660s] -- Checking for module 'bullet>=2.82'
+[1.674s] --   Found bullet, version 2.88
+[1.901s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[1.999s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[2.087s] -- Found assimp: /usr/include (found version "5.0.0") 
+[2.157s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.200s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.245s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[2.264s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.280s] -- Searching for dependencies of ignition-math6
+[2.283s] -- Looking for OGRE...
+[2.284s] -- OGRE_PREFIX_WATCH changed.
+[2.290s] -- Checking for module 'OGRE'
+[2.313s] --   Found OGRE, version 1.9.0
+[2.383s] -- Found Ogre Ghadamon (1.9.0)
+[2.403s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.424s] -- Looking for OGRE_Paging...
+[2.436s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.436s] -- Looking for OGRE_Terrain...
+[2.444s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.444s] -- Looking for OGRE_Property...
+[2.450s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.450s] -- Looking for OGRE_RTShaderSystem...
+[2.457s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.457s] -- Looking for OGRE_Volume...
+[2.463s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.463s] -- Looking for OGRE_Overlay...
+[2.470s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.607s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.612s] -- Looking for ignition-transport8 -- found version 8.5.0
+[2.613s] -- Searching for dependencies of ignition-transport8
+[2.649s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.653s] -- Checking for module 'libzmq >= 4'
+[2.670s] --   Found libzmq , version 4.3.2
+[2.734s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.747s] -- Checking for module 'uuid'
+[2.777s] --   Found uuid, version 2.34.0
+[2.848s] -- Found UUID: TRUE  
+[2.858s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[2.860s] -- Searching for dependencies of ignition-msgs5
+[2.900s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[2.901s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.908s] -- Checking for module 'tinyxml2'
+[2.924s] --   Found tinyxml2, version 6.2.0
+[2.996s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[3.005s] -- Looking for ignition-common3 -- found version 3.17.0
+[3.006s] -- Searching for dependencies of ignition-common3
+[3.007s] -- Looking for dlfcn.h - found
+[3.009s] -- Looking for libdl - found
+[3.012s] -- Found DL: TRUE  
+[3.030s] -- Searching for <ignition-common3> component [graphics]
+[3.038s] -- Looking for ignition-common3-graphics -- found version 3.17.0
+[3.039s] -- Searching for dependencies of ignition-common3-graphics
+[3.040s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.049s] -- Looking for ignition-fuel_tools4 -- found version 4.9.1
+[3.050s] -- Searching for dependencies of ignition-fuel_tools4
+[3.085s] -- Found CURL: /usr/local/lib/cmake/CURL/CURLConfig.cmake (found version "8.10.1")  
+[3.095s] -- Checking for module 'jsoncpp'
+[3.111s] --   Found jsoncpp, version 1.7.4
+[3.179s] -- Found JSONCPP: TRUE  
+[3.190s] -- Checking for module 'libzip'
+[3.220s] --   Found libzip, version 1.5.1
+[3.292s] -- Found ZIP: TRUE  
+[3.292s] -- Looking for ignition-common3 -- found version 3.17.0
+[3.293s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.294s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[3.298s] -- Gazebo version: 11.15
+[3.310s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.438s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.441s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.441s] -- Configured cppcheck include dirs: 
+[3.441s] -- Configured cppcheck exclude dirs and/or files: 
+[3.443s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.443s] -- Configured cpplint exclude dirs and/or files: 
+[3.444s] -- Added test 'lint_cmake' to check CMake code style
+[3.446s] -- Added test 'uncrustify' to check C / C++ code style
+[3.446s] -- Configured uncrustify additional arguments: 
+[3.447s] -- Added test 'xmllint' to check XML markup files
+[3.450s] -- Configuring done
+[3.467s] -- Generating done
+[3.472s] -- Build files have been written to: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/build/line_follower_robot
+[3.483s] Invoked command in '/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/build/line_follower_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/src/line_follower_robot -DCMAKE_INSTALL_PREFIX=/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot
+[3.486s] Invoking command in '/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/build/line_follower_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --build /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/build/line_follower_robot -- -j8 -l8
+[3.521s] [35m[1mScanning dependencies of target line_follower_node[0m
+[3.560s] [ 50%] [32mBuilding CXX object CMakeFiles/line_follower_node.dir/src/line_follower_node.cpp.o[0m
+[8.277s] [100%] [32m[1mLinking CXX executable line_follower_node[0m
+[8.527s] [100%] Built target line_follower_node
+[8.533s] Invoked command in '/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/build/line_follower_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --build /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/build/line_follower_robot -- -j8 -l8
+[8.540s] Invoking command in '/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/build/line_follower_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --install /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/build/line_follower_robot
+[8.543s] -- Install configuration: ""
+[8.543s] -- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/lib/line_follower_robot/line_follower_node
+[8.545s] -- Set runtime path of "/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/lib/line_follower_robot/line_follower_node" to ""
+[8.545s] -- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/ament_index/resource_index/package_run_dependencies/line_follower_robot
+[8.545s] -- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/ament_index/resource_index/parent_prefix_path/line_follower_robot
+[8.545s] -- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/environment/ament_prefix_path.sh
+[8.545s] -- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/environment/ament_prefix_path.dsv
+[8.545s] -- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/environment/path.sh
+[8.545s] -- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/environment/path.dsv
+[8.545s] -- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/local_setup.bash
+[8.545s] -- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/local_setup.sh
+[8.546s] -- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/local_setup.zsh
+[8.546s] -- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/local_setup.dsv
+[8.546s] -- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/package.dsv
+[8.546s] -- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/ament_index/resource_index/packages/line_follower_robot
+[8.546s] -- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/cmake/line_follower_robotConfig.cmake
+[8.546s] -- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/cmake/line_follower_robotConfig-version.cmake
+[8.546s] -- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/package.xml
+[8.547s] Invoked command in '/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/build/line_follower_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --install /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/build/line_follower_robot

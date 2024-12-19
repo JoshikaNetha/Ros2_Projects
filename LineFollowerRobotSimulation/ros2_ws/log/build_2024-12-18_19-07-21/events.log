@@ -1,0 +1,238 @@
+[0.000000] (-) TimerEvent: {}
+[0.000127] (line_follower_robot) JobQueued: {'identifier': 'line_follower_robot', 'dependencies': OrderedDict()}
+[0.000188] (line_follower_robot) JobStarted: {'identifier': 'line_follower_robot'}
+[0.009894] (line_follower_robot) JobProgress: {'identifier': 'line_follower_robot', 'progress': 'cmake'}
+[0.010287] (line_follower_robot) Command: {'cmd': ['/usr/local/bin/cmake', '/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/src/line_follower_robot', '-DCMAKE_INSTALL_PREFIX=/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot'], 'cwd': '/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/build/line_follower_robot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('VIRTUALENVWRAPPER_WORKON_CD', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('WORKON_HOME', '/home/joshikanamani/.virtualenvs'), ('USER', 'joshikanamani'), ('SSH_AGENT_PID', '2005'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/joshikanamani/Ros2/ros2_ws1/install/action_tutorials_cpp/lib:/home/joshikanamani/Ros2/ros2_ws1/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/local/lib/firebase_cpp_sdk'), ('HOME', '/home/joshikanamani'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('OLDPWD', '/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('QTDIR', '/home/joshikanamani/Qt/6.2.4/gcc_64'), ('NVM_BIN', '/home/joshikanamani/.nvm/versions/node/v23.1.0/bin'), ('NVM_INC', '/home/joshikanamani/.nvm/versions/node/v23.1.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GRADLE_HOME', '/home/joshikanamani/.sdkman/candidates/gradle/current'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1839'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/joshikanamani/.nvm'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install:/home/joshikanamani/Ros2/ros2_ws1/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joshikanamani'), ('rvm_bin_path', '/home/joshikanamani/.rvm/bin'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('JOURNAL_STREAM', '8:52226'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joshikanamani'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/joshikanamani/.nvm/versions/node/v23.1.0/bin:/home/joshikanamani/Qt/6.2.4/gcc_64/bin:/usr/local/bin:/home/joshikanamani/.sdkman/candidates/gradle/current/bin:/home/joshikanamani/android-sdk/cmdline-tools/latest/bin:/home/joshikanamani/android-sdk/emulator:/home/joshikanamani/android-sdk/platform-tools:/home/joshikanamani/bin:/home/joshikanamani/workSpace_Vehicles/Experiments/ardupilot/Tools/autotest:/home/joshikanamani/workSpace_Vehicles/ardupilot/Tools/autotest:/usr/lib/ccache:/home/joshikanamani/workSpace_Vehicles/ardupilot-master/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/joshikanamani/.local/bin:/home/joshikanamani/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/joshikanamani/.rvm/bin:/home/joshikanamani/.local/bin:/home/joshikanamani/.rvm/bin'), ('SESSION_MANAGER', 'local/nhhydl-01460:@/tmp/.ICE-unix/2043,unix/nhhydl-01460:/tmp/.ICE-unix/2043'), ('SDKMAN_CANDIDATES_DIR', '/home/joshikanamani/.sdkman/candidates'), ('INVOCATION_ID', 'cb1cff71cc8243dca2100806990f56ee'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9913610_17f9_4fe4_a92b_c297595691e6'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('SDKMAN_DIR', '/home/joshikanamani/.sdkman'), ('SDKMAN_PLATFORM', 'linuxx64'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_keyboard_controller:/home/joshikanamani/Ros2/ros2_ws1/install/joshika_package:/home/joshikanamani/Ros2/ros2_ws1/install/cpp_srvcli:/home/joshikanamani/Ros2/ros2_ws1/install/cpp_pubsub:/home/joshikanamani/Ros2/ros2_ws1/install/cpp_parameters:/home/joshikanamani/Ros2/ros2_ws1/install/action_tutorials_cpp:/home/joshikanamani/Ros2/ros2_ws1/install/action_tutorials_interfaces:/home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_controller:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('rvm_prefix', '/home/joshikanamani'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VIRTUALENVWRAPPER_PROJECT_FILENAME', '.project'), ('VIRTUALENVWRAPPER_HOOK_DIR', '/home/joshikanamani/.virtualenvs'), ('rvm_version', '1.29.12 (latest)'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('ANDROID_SDK_ROOT', '/home/joshikanamani/android-sdk'), ('VIRTUALENVWRAPPER_SCRIPT', '/home/joshikanamani/.local/bin/virtualenvwrapper.sh'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/build/line_follower_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('VIRTUALENVWRAPPER_VIRTUALENV', '/home/joshikanamani/.local/bin/virtualenv'), ('PYTHONPATH', '/home/joshikanamani/Ros2/ros2_ws1/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('rvm_path', '/home/joshikanamani/.rvm'), ('CMAKE_PREFIX_PATH', '/home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_keyboard_controller:/home/joshikanamani/Ros2/ros2_ws1/install/joshika_package:/home/joshikanamani/Ros2/ros2_ws1/install/cpp_srvcli:/home/joshikanamani/Ros2/ros2_ws1/install/cpp_pubsub:/home/joshikanamani/Ros2/ros2_ws1/install/cpp_parameters:/home/joshikanamani/Ros2/ros2_ws1/install/action_tutorials_cpp:/home/joshikanamani/Ros2/ros2_ws1/install/action_tutorials_interfaces:/home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_controller:/opt/ros/foxy')]), 'shell': False}
+[0.068089] (line_follower_robot) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.099527] (-) TimerEvent: {}
+[0.151738] (line_follower_robot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.161511] (line_follower_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199633] (-) TimerEvent: {}
+[0.202893] (line_follower_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.212551] (line_follower_robot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc - skipped\n'}
+[0.212777] (line_follower_robot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.213109] (line_follower_robot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.216273] (line_follower_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.277784] (line_follower_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.298374] (line_follower_robot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped\n'}
+[0.299107] (line_follower_robot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.299715] (-) TimerEvent: {}
+[0.300345] (line_follower_robot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.305086] (line_follower_robot) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.353935] (line_follower_robot) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.354303] (line_follower_robot) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.399814] (-) TimerEvent: {}
+[0.500139] (-) TimerEvent: {}
+[0.581389] (line_follower_robot) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.600261] (-) TimerEvent: {}
+[0.664087] (line_follower_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.671110] (line_follower_robot) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.700416] (-) TimerEvent: {}
+[0.772024] (line_follower_robot) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.800547] (-) TimerEvent: {}
+[0.834840] (line_follower_robot) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.900729] (-) TimerEvent: {}
+[0.916356] (line_follower_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.968959] (line_follower_robot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.970537] (line_follower_robot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.971256] (line_follower_robot) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.000864] (-) TimerEvent: {}
+[1.060086] (line_follower_robot) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.060599] (line_follower_robot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.101066] (-) TimerEvent: {}
+[1.183553] (line_follower_robot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.183994] (line_follower_robot) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.201247] (-) TimerEvent: {}
+[1.232668] (line_follower_robot) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.233150] (line_follower_robot) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.301469] (-) TimerEvent: {}
+[1.302879] (line_follower_robot) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.305378] (line_follower_robot) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.401647] (-) TimerEvent: {}
+[1.473558] (line_follower_robot) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.501811] (-) TimerEvent: {}
+[1.579301] (line_follower_robot) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[1.601989] (-) TimerEvent: {}
+[1.644966] (line_follower_robot) StdoutLine: {'line': b'-- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)\n'}
+[1.658338] (line_follower_robot) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[1.660098] (line_follower_robot) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.674320] (line_follower_robot) StdoutLine: {'line': b'--   Found bullet, version 2.88\n'}
+[1.702192] (-) TimerEvent: {}
+[1.802648] (-) TimerEvent: {}
+[1.901146] (line_follower_robot) StdoutLine: {'line': b'-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") \n'}
+[1.902817] (-) TimerEvent: {}
+[1.999460] (line_follower_robot) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") \n'}
+[2.002935] (-) TimerEvent: {}
+[2.086866] (line_follower_robot) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.0.0") \n'}
+[2.103072] (-) TimerEvent: {}
+[2.156688] (line_follower_robot) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[2.200425] (line_follower_robot) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[2.203159] (-) TimerEvent: {}
+[2.244447] (line_follower_robot) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[2.263923] (line_follower_robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.280199] (line_follower_robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.283123] (line_follower_robot) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[2.283763] (line_follower_robot) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[2.289673] (line_follower_robot) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[2.303264] (-) TimerEvent: {}
+[2.312653] (line_follower_robot) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[2.383260] (line_follower_robot) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[2.402802] (line_follower_robot) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[2.403365] (-) TimerEvent: {}
+[2.424254] (line_follower_robot) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.435710] (line_follower_robot) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[2.435978] (line_follower_robot) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.443589] (line_follower_robot) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.443754] (line_follower_robot) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.450277] (line_follower_robot) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.450413] (line_follower_robot) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.456888] (line_follower_robot) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[2.457024] (line_follower_robot) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.463392] (line_follower_robot) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[2.463526] (line_follower_robot) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.469760] (line_follower_robot) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.503448] (-) TimerEvent: {}
+[2.603738] (-) TimerEvent: {}
+[2.607451] (line_follower_robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.612195] (line_follower_robot) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.5.0\n'}
+[2.612719] (line_follower_robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[2.648609] (line_follower_robot) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.653127] (line_follower_robot) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.670355] (line_follower_robot) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[2.703916] (-) TimerEvent: {}
+[2.734359] (line_follower_robot) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[2.746576] (line_follower_robot) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.777120] (line_follower_robot) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[2.804028] (-) TimerEvent: {}
+[2.848236] (line_follower_robot) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[2.858397] (line_follower_robot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[2.859592] (line_follower_robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[2.899512] (line_follower_robot) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[2.900954] (line_follower_robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.904114] (-) TimerEvent: {}
+[2.907777] (line_follower_robot) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[2.923736] (line_follower_robot) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[2.996409] (line_follower_robot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[3.004254] (-) TimerEvent: {}
+[3.005191] (line_follower_robot) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.17.0\n'}
+[3.006154] (line_follower_robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[3.006981] (line_follower_robot) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.009051] (line_follower_robot) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.012185] (line_follower_robot) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[3.029796] (line_follower_robot) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[3.038398] (line_follower_robot) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.17.0\n'}
+[3.039365] (line_follower_robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[3.039956] (line_follower_robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.049264] (line_follower_robot) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.9.1\n'}
+[3.049891] (line_follower_robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[3.084668] (line_follower_robot) StdoutLine: {'line': b'-- Found CURL: /usr/local/lib/cmake/CURL/CURLConfig.cmake (found version "8.10.1")  \n'}
+[3.095268] (line_follower_robot) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[3.104402] (-) TimerEvent: {}
+[3.110732] (line_follower_robot) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[3.179096] (line_follower_robot) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[3.189579] (line_follower_robot) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[3.204592] (-) TimerEvent: {}
+[3.219872] (line_follower_robot) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[3.291531] (line_follower_robot) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[3.292470] (line_follower_robot) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.17.0\n'}
+[3.293429] (line_follower_robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.294234] (line_follower_robot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[3.298118] (line_follower_robot) StdoutLine: {'line': b'-- Gazebo version: 11.15\n'}
+[3.304711] (-) TimerEvent: {}
+[3.310243] (line_follower_robot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.404901] (-) TimerEvent: {}
+[3.438002] (line_follower_robot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.440591] (line_follower_robot) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.441144] (line_follower_robot) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.441369] (line_follower_robot) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.442929] (line_follower_robot) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.443129] (line_follower_robot) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.444312] (line_follower_robot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.446190] (line_follower_robot) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.446399] (line_follower_robot) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.447257] (line_follower_robot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.450191] (line_follower_robot) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.467473] (line_follower_robot) StdoutLine: {'line': b'-- Generating done\n'}
+[3.472574] (line_follower_robot) StdoutLine: {'line': b'-- Build files have been written to: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/build/line_follower_robot\n'}
+[3.482934] (line_follower_robot) CommandEnded: {'returncode': 0}
+[3.483758] (line_follower_robot) JobProgress: {'identifier': 'line_follower_robot', 'progress': 'build'}
+[3.485954] (line_follower_robot) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/build/line_follower_robot', '--', '-j8', '-l8'], 'cwd': '/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/build/line_follower_robot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('VIRTUALENVWRAPPER_WORKON_CD', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('WORKON_HOME', '/home/joshikanamani/.virtualenvs'), ('USER', 'joshikanamani'), ('SSH_AGENT_PID', '2005'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/joshikanamani/Ros2/ros2_ws1/install/action_tutorials_cpp/lib:/home/joshikanamani/Ros2/ros2_ws1/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/local/lib/firebase_cpp_sdk'), ('HOME', '/home/joshikanamani'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('OLDPWD', '/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('QTDIR', '/home/joshikanamani/Qt/6.2.4/gcc_64'), ('NVM_BIN', '/home/joshikanamani/.nvm/versions/node/v23.1.0/bin'), ('NVM_INC', '/home/joshikanamani/.nvm/versions/node/v23.1.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GRADLE_HOME', '/home/joshikanamani/.sdkman/candidates/gradle/current'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1839'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/joshikanamani/.nvm'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install:/home/joshikanamani/Ros2/ros2_ws1/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joshikanamani'), ('rvm_bin_path', '/home/joshikanamani/.rvm/bin'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('JOURNAL_STREAM', '8:52226'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joshikanamani'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/joshikanamani/.nvm/versions/node/v23.1.0/bin:/home/joshikanamani/Qt/6.2.4/gcc_64/bin:/usr/local/bin:/home/joshikanamani/.sdkman/candidates/gradle/current/bin:/home/joshikanamani/android-sdk/cmdline-tools/latest/bin:/home/joshikanamani/android-sdk/emulator:/home/joshikanamani/android-sdk/platform-tools:/home/joshikanamani/bin:/home/joshikanamani/workSpace_Vehicles/Experiments/ardupilot/Tools/autotest:/home/joshikanamani/workSpace_Vehicles/ardupilot/Tools/autotest:/usr/lib/ccache:/home/joshikanamani/workSpace_Vehicles/ardupilot-master/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/joshikanamani/.local/bin:/home/joshikanamani/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/joshikanamani/.rvm/bin:/home/joshikanamani/.local/bin:/home/joshikanamani/.rvm/bin'), ('SESSION_MANAGER', 'local/nhhydl-01460:@/tmp/.ICE-unix/2043,unix/nhhydl-01460:/tmp/.ICE-unix/2043'), ('SDKMAN_CANDIDATES_DIR', '/home/joshikanamani/.sdkman/candidates'), ('INVOCATION_ID', 'cb1cff71cc8243dca2100806990f56ee'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9913610_17f9_4fe4_a92b_c297595691e6'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('SDKMAN_DIR', '/home/joshikanamani/.sdkman'), ('SDKMAN_PLATFORM', 'linuxx64'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_keyboard_controller:/home/joshikanamani/Ros2/ros2_ws1/install/joshika_package:/home/joshikanamani/Ros2/ros2_ws1/install/cpp_srvcli:/home/joshikanamani/Ros2/ros2_ws1/install/cpp_pubsub:/home/joshikanamani/Ros2/ros2_ws1/install/cpp_parameters:/home/joshikanamani/Ros2/ros2_ws1/install/action_tutorials_cpp:/home/joshikanamani/Ros2/ros2_ws1/install/action_tutorials_interfaces:/home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_controller:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('rvm_prefix', '/home/joshikanamani'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VIRTUALENVWRAPPER_PROJECT_FILENAME', '.project'), ('VIRTUALENVWRAPPER_HOOK_DIR', '/home/joshikanamani/.virtualenvs'), ('rvm_version', '1.29.12 (latest)'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('ANDROID_SDK_ROOT', '/home/joshikanamani/android-sdk'), ('VIRTUALENVWRAPPER_SCRIPT', '/home/joshikanamani/.local/bin/virtualenvwrapper.sh'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/build/line_follower_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('VIRTUALENVWRAPPER_VIRTUALENV', '/home/joshikanamani/.local/bin/virtualenv'), ('PYTHONPATH', '/home/joshikanamani/Ros2/ros2_ws1/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('rvm_path', '/home/joshikanamani/.rvm'), ('CMAKE_PREFIX_PATH', '/home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_keyboard_controller:/home/joshikanamani/Ros2/ros2_ws1/install/joshika_package:/home/joshikanamani/Ros2/ros2_ws1/install/cpp_srvcli:/home/joshikanamani/Ros2/ros2_ws1/install/cpp_pubsub:/home/joshikanamani/Ros2/ros2_ws1/install/cpp_parameters:/home/joshikanamani/Ros2/ros2_ws1/install/action_tutorials_cpp:/home/joshikanamani/Ros2/ros2_ws1/install/action_tutorials_interfaces:/home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_controller:/opt/ros/foxy')]), 'shell': False}
+[3.505041] (-) TimerEvent: {}
+[3.520913] (line_follower_robot) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target line_follower_node\x1b[0m\n'}
+[3.559876] (line_follower_robot) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/line_follower_node.dir/src/line_follower_node.cpp.o\x1b[0m\n'}
+[3.605243] (-) TimerEvent: {}
+[3.705702] (-) TimerEvent: {}
+[3.806102] (-) TimerEvent: {}
+[3.906517] (-) TimerEvent: {}
+[4.006947] (-) TimerEvent: {}
+[4.107334] (-) TimerEvent: {}
+[4.207666] (-) TimerEvent: {}
+[4.308039] (-) TimerEvent: {}
+[4.408418] (-) TimerEvent: {}
+[4.508735] (-) TimerEvent: {}
+[4.609141] (-) TimerEvent: {}
+[4.709501] (-) TimerEvent: {}
+[4.809944] (-) TimerEvent: {}
+[4.910358] (-) TimerEvent: {}
+[5.010753] (-) TimerEvent: {}
+[5.111138] (-) TimerEvent: {}
+[5.211547] (-) TimerEvent: {}
+[5.311871] (-) TimerEvent: {}
+[5.412226] (-) TimerEvent: {}
+[5.512642] (-) TimerEvent: {}
+[5.613023] (-) TimerEvent: {}
+[5.713408] (-) TimerEvent: {}
+[5.813800] (-) TimerEvent: {}
+[5.914186] (-) TimerEvent: {}
+[6.014606] (-) TimerEvent: {}
+[6.114994] (-) TimerEvent: {}
+[6.215392] (-) TimerEvent: {}
+[6.315720] (-) TimerEvent: {}
+[6.416140] (-) TimerEvent: {}
+[6.516552] (-) TimerEvent: {}
+[6.616922] (-) TimerEvent: {}
+[6.717316] (-) TimerEvent: {}
+[6.817702] (-) TimerEvent: {}
+[6.918086] (-) TimerEvent: {}
+[7.018482] (-) TimerEvent: {}
+[7.118866] (-) TimerEvent: {}
+[7.219267] (-) TimerEvent: {}
+[7.319654] (-) TimerEvent: {}
+[7.420028] (-) TimerEvent: {}
+[7.520415] (-) TimerEvent: {}
+[7.620842] (-) TimerEvent: {}
+[7.721225] (-) TimerEvent: {}
+[7.821602] (-) TimerEvent: {}
+[7.921970] (-) TimerEvent: {}
+[8.022363] (-) TimerEvent: {}
+[8.122786] (-) TimerEvent: {}
+[8.223193] (-) TimerEvent: {}
+[8.276919] (line_follower_robot) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable line_follower_node\x1b[0m\n'}
+[8.323423] (-) TimerEvent: {}
+[8.423925] (-) TimerEvent: {}
+[8.524309] (-) TimerEvent: {}
+[8.527310] (line_follower_robot) StdoutLine: {'line': b'[100%] Built target line_follower_node\n'}
+[8.532542] (line_follower_robot) CommandEnded: {'returncode': 0}
+[8.532941] (line_follower_robot) JobProgress: {'identifier': 'line_follower_robot', 'progress': 'install'}
+[8.539592] (line_follower_robot) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/build/line_follower_robot'], 'cwd': '/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/build/line_follower_robot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('VIRTUALENVWRAPPER_WORKON_CD', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('WORKON_HOME', '/home/joshikanamani/.virtualenvs'), ('USER', 'joshikanamani'), ('SSH_AGENT_PID', '2005'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/joshikanamani/Ros2/ros2_ws1/install/action_tutorials_cpp/lib:/home/joshikanamani/Ros2/ros2_ws1/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/local/lib/firebase_cpp_sdk'), ('HOME', '/home/joshikanamani'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('OLDPWD', '/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('QTDIR', '/home/joshikanamani/Qt/6.2.4/gcc_64'), ('NVM_BIN', '/home/joshikanamani/.nvm/versions/node/v23.1.0/bin'), ('NVM_INC', '/home/joshikanamani/.nvm/versions/node/v23.1.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GRADLE_HOME', '/home/joshikanamani/.sdkman/candidates/gradle/current'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1839'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/joshikanamani/.nvm'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install:/home/joshikanamani/Ros2/ros2_ws1/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joshikanamani'), ('rvm_bin_path', '/home/joshikanamani/.rvm/bin'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('JOURNAL_STREAM', '8:52226'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joshikanamani'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/joshikanamani/.nvm/versions/node/v23.1.0/bin:/home/joshikanamani/Qt/6.2.4/gcc_64/bin:/usr/local/bin:/home/joshikanamani/.sdkman/candidates/gradle/current/bin:/home/joshikanamani/android-sdk/cmdline-tools/latest/bin:/home/joshikanamani/android-sdk/emulator:/home/joshikanamani/android-sdk/platform-tools:/home/joshikanamani/bin:/home/joshikanamani/workSpace_Vehicles/Experiments/ardupilot/Tools/autotest:/home/joshikanamani/workSpace_Vehicles/ardupilot/Tools/autotest:/usr/lib/ccache:/home/joshikanamani/workSpace_Vehicles/ardupilot-master/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/joshikanamani/.local/bin:/home/joshikanamani/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/joshikanamani/.rvm/bin:/home/joshikanamani/.local/bin:/home/joshikanamani/.rvm/bin'), ('SESSION_MANAGER', 'local/nhhydl-01460:@/tmp/.ICE-unix/2043,unix/nhhydl-01460:/tmp/.ICE-unix/2043'), ('SDKMAN_CANDIDATES_DIR', '/home/joshikanamani/.sdkman/candidates'), ('INVOCATION_ID', 'cb1cff71cc8243dca2100806990f56ee'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9913610_17f9_4fe4_a92b_c297595691e6'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('SDKMAN_DIR', '/home/joshikanamani/.sdkman'), ('SDKMAN_PLATFORM', 'linuxx64'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_keyboard_controller:/home/joshikanamani/Ros2/ros2_ws1/install/joshika_package:/home/joshikanamani/Ros2/ros2_ws1/install/cpp_srvcli:/home/joshikanamani/Ros2/ros2_ws1/install/cpp_pubsub:/home/joshikanamani/Ros2/ros2_ws1/install/cpp_parameters:/home/joshikanamani/Ros2/ros2_ws1/install/action_tutorials_cpp:/home/joshikanamani/Ros2/ros2_ws1/install/action_tutorials_interfaces:/home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_controller:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('rvm_prefix', '/home/joshikanamani'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VIRTUALENVWRAPPER_PROJECT_FILENAME', '.project'), ('VIRTUALENVWRAPPER_HOOK_DIR', '/home/joshikanamani/.virtualenvs'), ('rvm_version', '1.29.12 (latest)'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('ANDROID_SDK_ROOT', '/home/joshikanamani/android-sdk'), ('VIRTUALENVWRAPPER_SCRIPT', '/home/joshikanamani/.local/bin/virtualenvwrapper.sh'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/build/line_follower_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('VIRTUALENVWRAPPER_VIRTUALENV', '/home/joshikanamani/.local/bin/virtualenv'), ('PYTHONPATH', '/home/joshikanamani/Ros2/ros2_ws1/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('rvm_path', '/home/joshikanamani/.rvm'), ('CMAKE_PREFIX_PATH', '/home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_keyboard_controller:/home/joshikanamani/Ros2/ros2_ws1/install/joshika_package:/home/joshikanamani/Ros2/ros2_ws1/install/cpp_srvcli:/home/joshikanamani/Ros2/ros2_ws1/install/cpp_pubsub:/home/joshikanamani/Ros2/ros2_ws1/install/cpp_parameters:/home/joshikanamani/Ros2/ros2_ws1/install/action_tutorials_cpp:/home/joshikanamani/Ros2/ros2_ws1/install/action_tutorials_interfaces:/home/joshikanamani/Ros2/Projects/TurtleSimController/ros2_ws/install/turtle_controller:/opt/ros/foxy')]), 'shell': False}
+[8.542834] (line_follower_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.543009] (line_follower_robot) StdoutLine: {'line': b'-- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/lib/line_follower_robot/line_follower_node\n'}
+[8.544846] (line_follower_robot) StdoutLine: {'line': b'-- Set runtime path of "/home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/lib/line_follower_robot/line_follower_node" to ""\n'}
+[8.544970] (line_follower_robot) StdoutLine: {'line': b'-- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/ament_index/resource_index/package_run_dependencies/line_follower_robot\n'}
+[8.545071] (line_follower_robot) StdoutLine: {'line': b'-- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/ament_index/resource_index/parent_prefix_path/line_follower_robot\n'}
+[8.545156] (line_follower_robot) StdoutLine: {'line': b'-- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/environment/ament_prefix_path.sh\n'}
+[8.545235] (line_follower_robot) StdoutLine: {'line': b'-- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/environment/ament_prefix_path.dsv\n'}
+[8.545322] (line_follower_robot) StdoutLine: {'line': b'-- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/environment/path.sh\n'}
+[8.545419] (line_follower_robot) StdoutLine: {'line': b'-- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/environment/path.dsv\n'}
+[8.545517] (line_follower_robot) StdoutLine: {'line': b'-- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/local_setup.bash\n'}
+[8.545609] (line_follower_robot) StdoutLine: {'line': b'-- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/local_setup.sh\n'}
+[8.545703] (line_follower_robot) StdoutLine: {'line': b'-- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/local_setup.zsh\n'}
+[8.545794] (line_follower_robot) StdoutLine: {'line': b'-- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/local_setup.dsv\n'}
+[8.545883] (line_follower_robot) StdoutLine: {'line': b'-- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/package.dsv\n'}
+[8.546010] (line_follower_robot) StdoutLine: {'line': b'-- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/ament_index/resource_index/packages/line_follower_robot\n'}
+[8.546135] (line_follower_robot) StdoutLine: {'line': b'-- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/cmake/line_follower_robotConfig.cmake\n'}
+[8.546210] (line_follower_robot) StdoutLine: {'line': b'-- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/cmake/line_follower_robotConfig-version.cmake\n'}
+[8.546305] (line_follower_robot) StdoutLine: {'line': b'-- Installing: /home/joshikanamani/Ros2/Projects/LineFollowerRobotSimulation/ros2_ws/install/line_follower_robot/share/line_follower_robot/package.xml\n'}
+[8.547517] (line_follower_robot) CommandEnded: {'returncode': 0}
+[8.563254] (line_follower_robot) JobEnded: {'identifier': 'line_follower_robot', 'rc': 0}
+[8.564095] (-) EventReactorShutdown: {}

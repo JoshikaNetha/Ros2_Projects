@@ -1,0 +1,14 @@
+digraph G {
+node [shape=box];
+"base_link" [label="base_link"];
+"line_sensor" [label="line_sensor"];
+"wheel_left" [label="wheel_left"];
+"wheel_right" [label="wheel_right"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"base_link" -> "sensor_joint" [label="xyz: 0.1 0 0.02 \nrpy: 0 -0 0"]
+"sensor_joint" -> "line_sensor"
+"base_link" -> "wheel_left_joint" [label="xyz: -0.1 -0.05 0.02 \nrpy: 0 -0 0"]
+"wheel_left_joint" -> "wheel_left"
+"base_link" -> "wheel_right_joint" [label="xyz: -0.1 0.05 0.02 \nrpy: 0 -0 0"]
+"wheel_right_joint" -> "wheel_right"
+}
