@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="example_world">
+  <!-- Ground Plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+     <include>
+      <uri>model://sun</uri>
+    </include>
+        <!-- Gazebo ROS Factory Plugin -->
+    <plugin name="gazebo_ros_factory" filename="libgazebo_ros_factory.so">
+  <ros>
+    <namespace>/</namespace>
+  </ros>
+</plugin>
+
+       <!-- Custom Models -->
+    <model name="box">
+      <static>true</static>
+       <pose>3 5 10 5 0 0</pose> <!-- Position and orientation -->
+      <link name="box_link">
+        <visual name="box_visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+           <!-- Custom Models -->
+    <model name="circle">
+      <static>true</static>
+       <pose>-3 -5 10 5 0 0</pose> <!-- Position and orientation -->
+      <link name="circle_link">
+        <visual name="circle_visual">
+             <geometry>
+            <cylinder>
+              <radius>1.0</radius>  <!-- Radius of the circle -->
+              <length>1.0</length>  <!-- Thickness (height) of the circle -->
+            </cylinder>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Blue</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    </world>
+</sdf>

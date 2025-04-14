@@ -1,0 +1,33 @@
+[0.872s] Invoking command in '/home/joshikanamani/Ros2/ScouMateMainDir/image_publisher/src/image_publisher': PYTHONPATH=/home/joshikanamani/Ros2/ScouMateMainDir/image_publisher/src/build/image_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joshikanamani/Ros2/ScouMateMainDir/image_publisher/src/install/image_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/image_publisher build --build-base /home/joshikanamani/Ros2/ScouMateMainDir/image_publisher/src/build/image_publisher/build install --record /home/joshikanamani/Ros2/ScouMateMainDir/image_publisher/src/build/image_publisher/install.log --single-version-externally-managed install_data
+[1.156s] running egg_info
+[1.172s] creating ../build/image_publisher/image_publisher.egg-info
+[1.172s] writing ../build/image_publisher/image_publisher.egg-info/PKG-INFO
+[1.173s] writing dependency_links to ../build/image_publisher/image_publisher.egg-info/dependency_links.txt
+[1.173s] writing entry points to ../build/image_publisher/image_publisher.egg-info/entry_points.txt
+[1.173s] writing requirements to ../build/image_publisher/image_publisher.egg-info/requires.txt
+[1.173s] writing top-level names to ../build/image_publisher/image_publisher.egg-info/top_level.txt
+[1.269s] writing manifest file '../build/image_publisher/image_publisher.egg-info/SOURCES.txt'
+[1.306s] reading manifest file '../build/image_publisher/image_publisher.egg-info/SOURCES.txt'
+[1.307s] writing manifest file '../build/image_publisher/image_publisher.egg-info/SOURCES.txt'
+[1.307s] running build
+[1.307s] running build_py
+[1.308s] creating /home/joshikanamani/Ros2/ScouMateMainDir/image_publisher/src/build/image_publisher/build/lib/image_publisher
+[1.308s] copying image_publisher/__init__.py -> /home/joshikanamani/Ros2/ScouMateMainDir/image_publisher/src/build/image_publisher/build/lib/image_publisher
+[1.308s] copying image_publisher/cameranode.py -> /home/joshikanamani/Ros2/ScouMateMainDir/image_publisher/src/build/image_publisher/build/lib/image_publisher
+[1.308s] running install
+[1.313s] running install_lib
+[1.331s] creating /home/joshikanamani/Ros2/ScouMateMainDir/image_publisher/src/install/image_publisher/lib/python3.8/site-packages/image_publisher
+[1.331s] copying /home/joshikanamani/Ros2/ScouMateMainDir/image_publisher/src/build/image_publisher/build/lib/image_publisher/__init__.py -> /home/joshikanamani/Ros2/ScouMateMainDir/image_publisher/src/install/image_publisher/lib/python3.8/site-packages/image_publisher
+[1.331s] copying /home/joshikanamani/Ros2/ScouMateMainDir/image_publisher/src/build/image_publisher/build/lib/image_publisher/cameranode.py -> /home/joshikanamani/Ros2/ScouMateMainDir/image_publisher/src/install/image_publisher/lib/python3.8/site-packages/image_publisher
+[1.331s] byte-compiling /home/joshikanamani/Ros2/ScouMateMainDir/image_publisher/src/install/image_publisher/lib/python3.8/site-packages/image_publisher/__init__.py to __init__.cpython-38.pyc
+[1.331s] byte-compiling /home/joshikanamani/Ros2/ScouMateMainDir/image_publisher/src/install/image_publisher/lib/python3.8/site-packages/image_publisher/cameranode.py to cameranode.cpython-38.pyc
+[1.332s] running install_data
+[1.332s] creating /home/joshikanamani/Ros2/ScouMateMainDir/image_publisher/src/install/image_publisher/share/ament_index/resource_index/packages
+[1.332s] copying resource/image_publisher -> /home/joshikanamani/Ros2/ScouMateMainDir/image_publisher/src/install/image_publisher/share/ament_index/resource_index/packages
+[1.332s] copying package.xml -> /home/joshikanamani/Ros2/ScouMateMainDir/image_publisher/src/install/image_publisher/share/image_publisher
+[1.332s] running install_egg_info
+[1.351s] Copying ../build/image_publisher/image_publisher.egg-info to /home/joshikanamani/Ros2/ScouMateMainDir/image_publisher/src/install/image_publisher/lib/python3.8/site-packages/image_publisher-0.0.0-py3.8.egg-info
+[1.351s] running install_scripts
+[1.393s] Installing camera_publisher script to /home/joshikanamani/Ros2/ScouMateMainDir/image_publisher/src/install/image_publisher/lib/image_publisher
+[1.393s] writing list of installed files to '/home/joshikanamani/Ros2/ScouMateMainDir/image_publisher/src/build/image_publisher/install.log'
+[1.416s] Invoked command in '/home/joshikanamani/Ros2/ScouMateMainDir/image_publisher/src/image_publisher' returned '0': PYTHONPATH=/home/joshikanamani/Ros2/ScouMateMainDir/image_publisher/src/build/image_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joshikanamani/Ros2/ScouMateMainDir/image_publisher/src/install/image_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/image_publisher build --build-base /home/joshikanamani/Ros2/ScouMateMainDir/image_publisher/src/build/image_publisher/build install --record /home/joshikanamani/Ros2/ScouMateMainDir/image_publisher/src/build/image_publisher/install.log --single-version-externally-managed install_data

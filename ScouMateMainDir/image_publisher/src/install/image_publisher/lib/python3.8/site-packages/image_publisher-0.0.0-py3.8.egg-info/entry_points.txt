@@ -1,0 +1,2 @@
+[console_scripts]
+camera_publisher = image_publisher.cameranode:main

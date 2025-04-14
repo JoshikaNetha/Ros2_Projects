@@ -1,2 +1,0 @@
-Invoking command in '/home/joshikanamani/Ros2/ros2_ws1/build/tutorial_interfaces': /usr/local/bin/cmake /home/joshikanamani/Ros2/ros2_ws1/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/joshikanamani/Ros2/ros2_ws1/install/tutorial_interfaces
-Invoked command in '/home/joshikanamani/Ros2/ros2_ws1/build/tutorial_interfaces' returned '1': /usr/local/bin/cmake /home/joshikanamani/Ros2/ros2_ws1/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/joshikanamani/Ros2/ros2_ws1/install/tutorial_interfaces

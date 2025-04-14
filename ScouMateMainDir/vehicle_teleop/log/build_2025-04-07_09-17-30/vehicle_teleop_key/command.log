@@ -1,0 +1,2 @@
+Invoking command in '/workspace/build/vehicle_teleop_key': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/vehicle_teleop_key -- -j8 -l8
+Invoked command in '/workspace/build/vehicle_teleop_key' returned '2': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/vehicle_teleop_key -- -j8 -l8

@@ -1,1 +1,0 @@
-Invoking command in '/home/joshikanamani/Ros2/ros2_ws1/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake /home/joshikanamani/Ros2/ros2_ws1/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/joshikanamani/Ros2/ros2_ws1/install/more_interfaces

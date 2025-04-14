@@ -1,0 +1,66 @@
+[0.009s] Invoking command in '/workspace/build/vehicle_teleop_key': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /workspace/src/vehicle_teleop_key -DCMAKE_INSTALL_PREFIX=/workspace/install/vehicle_teleop_key
+[0.149s] -- The C compiler identification is GNU 13.3.0
+[0.286s] -- The CXX compiler identification is GNU 13.3.0
+[0.313s] -- Detecting C compiler ABI info
+[0.451s] -- Detecting C compiler ABI info - done
+[0.470s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.471s] -- Detecting C compile features
+[0.472s] -- Detecting C compile features - done
+[0.487s] -- Detecting CXX compiler ABI info
+[0.644s] -- Detecting CXX compiler ABI info - done
+[0.663s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.663s] -- Detecting CXX compile features
+[0.664s] -- Detecting CXX compile features - done
+[0.670s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.864s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.023s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.096s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.113s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.132s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.153s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.239s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.242s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.320s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.347s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.387s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.484s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.533s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.671s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.674s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.674s] -- Configured cppcheck include dirs: 
+[1.674s] -- Configured cppcheck exclude dirs and/or files: 
+[1.676s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.676s] -- Configured cpplint exclude dirs and/or files: 
+[1.677s] -- Added test 'lint_cmake' to check CMake code style
+[1.680s] -- Added test 'uncrustify' to check C / C++ code style
+[1.680s] -- Configured uncrustify additional arguments: 
+[1.681s] -- Added test 'xmllint' to check XML markup files
+[1.683s] -- Configuring done (1.7s)
+[1.702s] -- Generating done (0.0s)
+[1.708s] -- Build files have been written to: /workspace/build/vehicle_teleop_key
+[1.718s] Invoked command in '/workspace/build/vehicle_teleop_key' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /workspace/src/vehicle_teleop_key -DCMAKE_INSTALL_PREFIX=/workspace/install/vehicle_teleop_key
+[1.718s] Invoking command in '/workspace/build/vehicle_teleop_key': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/vehicle_teleop_key -- -j8 -l8
+[1.794s] [ 50%] [32mBuilding CXX object CMakeFiles/vehicle_teleop_key_node.dir/src/keyboard_controller.cpp.o[0m
+[5.949s] [100%] [32m[1mLinking CXX executable vehicle_teleop_key_node[0m
+[6.151s] [100%] Built target vehicle_teleop_key_node
+[6.162s] Invoked command in '/workspace/build/vehicle_teleop_key' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/vehicle_teleop_key -- -j8 -l8
+[6.170s] Invoking command in '/workspace/build/vehicle_teleop_key': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /workspace/build/vehicle_teleop_key
+[6.177s] -- Install configuration: ""
+[6.177s] -- Installing: /workspace/install/vehicle_teleop_key/lib/vehicle_teleop_key/vehicle_teleop_key_node
+[6.178s] -- Set non-toolchain portion of runtime path of "/workspace/install/vehicle_teleop_key/lib/vehicle_teleop_key/vehicle_teleop_key_node" to ""
+[6.179s] -- Installing: /workspace/install/vehicle_teleop_key/share/ament_index/resource_index/package_run_dependencies/vehicle_teleop_key
+[6.179s] -- Installing: /workspace/install/vehicle_teleop_key/share/ament_index/resource_index/parent_prefix_path/vehicle_teleop_key
+[6.179s] -- Installing: /workspace/install/vehicle_teleop_key/share/vehicle_teleop_key/environment/ament_prefix_path.sh
+[6.179s] -- Installing: /workspace/install/vehicle_teleop_key/share/vehicle_teleop_key/environment/ament_prefix_path.dsv
+[6.179s] -- Installing: /workspace/install/vehicle_teleop_key/share/vehicle_teleop_key/environment/path.sh
+[6.180s] -- Installing: /workspace/install/vehicle_teleop_key/share/vehicle_teleop_key/environment/path.dsv
+[6.180s] -- Installing: /workspace/install/vehicle_teleop_key/share/vehicle_teleop_key/local_setup.bash
+[6.180s] -- Installing: /workspace/install/vehicle_teleop_key/share/vehicle_teleop_key/local_setup.sh
+[6.180s] -- Installing: /workspace/install/vehicle_teleop_key/share/vehicle_teleop_key/local_setup.zsh
+[6.180s] -- Installing: /workspace/install/vehicle_teleop_key/share/vehicle_teleop_key/local_setup.dsv
+[6.180s] -- Installing: /workspace/install/vehicle_teleop_key/share/vehicle_teleop_key/package.dsv
+[6.180s] -- Installing: /workspace/install/vehicle_teleop_key/share/ament_index/resource_index/packages/vehicle_teleop_key
+[6.180s] -- Installing: /workspace/install/vehicle_teleop_key/share/vehicle_teleop_key/cmake/vehicle_teleop_keyConfig.cmake
+[6.180s] -- Installing: /workspace/install/vehicle_teleop_key/share/vehicle_teleop_key/cmake/vehicle_teleop_keyConfig-version.cmake
+[6.180s] -- Installing: /workspace/install/vehicle_teleop_key/share/vehicle_teleop_key/package.xml
+[6.182s] Invoked command in '/workspace/build/vehicle_teleop_key' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /workspace/build/vehicle_teleop_key

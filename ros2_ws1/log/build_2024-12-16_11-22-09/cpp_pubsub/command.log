@@ -1,1 +1,0 @@
-Invoking command in '/home/joshikanamani/Ros2/ros2_ws1/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake /home/joshikanamani/Ros2/ros2_ws1/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/joshikanamani/Ros2/ros2_ws1/install/cpp_pubsub

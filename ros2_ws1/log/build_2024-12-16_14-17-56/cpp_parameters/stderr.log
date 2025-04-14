@@ -1,5 +1,0 @@
-CMake Error at CMakeLists.txt:24 (install):
-  install TARGETS given target "DIRECTORY" which does not exist.
-
-
-make: *** [Makefile:285: cmake_check_build_system] Error 1

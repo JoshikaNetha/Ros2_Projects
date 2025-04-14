@@ -1,0 +1,5 @@
+[0.010s] Invoking command in '/workspace/build/vehicle_teleop_key': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/vehicle_teleop_key -- -j8 -l8
+[0.017s] [0mCMake Error: The current CMakeCache.txt directory /workspace/build/vehicle_teleop_key/CMakeCache.txt is different than the directory /home/joshikanamani/Ros2/ScoutMate/ws/build/vehicle_teleop_key where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.019s] make: /usr/local/bin/cmake: No such file or directory
+[0.019s] make: *** [Makefile:285: cmake_check_build_system] Error 127
+[0.021s] Invoked command in '/workspace/build/vehicle_teleop_key' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/vehicle_teleop_key -- -j8 -l8

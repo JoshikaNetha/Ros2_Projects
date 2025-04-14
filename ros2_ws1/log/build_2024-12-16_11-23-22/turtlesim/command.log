@@ -1,1 +1,0 @@
-Invoking command in '/home/joshikanamani/Ros2/ros2_ws1/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --build /home/joshikanamani/Ros2/ros2_ws1/build/turtlesim -- -j8 -l8

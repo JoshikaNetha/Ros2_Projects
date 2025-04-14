@@ -1,0 +1,11 @@
+pyqt5
+pygame
+requests
+# opencv-contrib-python
+opencv-python-headless
+numpy
+python-dotenv
+pyserial
+pydantic
+pyaudio
+sounddevice
